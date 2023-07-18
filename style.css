@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.calculator{
+    width: 300px;
+    background-color: #483f3f;
+    border-radius: 10px;
+}
+
+.scr{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 60px;
+    background-color: #ead9d9;
+}
+
+.miniScr{
+    display: flex;
+    justify-content:flex-end ;
+    align-items: center;
+    background-color: #ead9d9; 
+    padding-right: 20px;
+    height: 30px;
+}
+
+.scr h2{
+    padding: 0;
+    margin: 20px;
+}
+
+.margin{
+    padding: 10px;
+    
+}
+
+.clr-del{
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.clr-del button{
+    width: 200px;
+    margin: 5px;
+    height: 50px;
+}
+.body{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+}
+.body button{
+    width: 70px;
+    height: 70px;
+
+}
