@@ -58,7 +58,7 @@ operator.forEach(operator => {
             scrDigit.textContent = ''
             upDigit.textContent = numValues[numValues.length - 1]
         }
-        console.log(numValues[0], numValues[1])
+
     })
 })
 
@@ -82,4 +82,7 @@ equal.addEventListener('click', function () {
 
     upDigit.textContent = ""
     signP.textContent = ''
+    oper = '';
+    numValues = [];
+
 })
