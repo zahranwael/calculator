@@ -79,4 +79,7 @@ equal.addEventListener('click', function () {
         let result = numValues[0] / numValues[1]
         scrDigit.textContent = result
     }
+
+    upDigit.textContent = ""
+    signP.textContent = ''
 })
